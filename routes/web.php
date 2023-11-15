@@ -23,5 +23,5 @@ Route::get('/siswa', [SiswaController::class, 'index']);
 Route::get('/siswa/tambah', [SiswaController::class, 'tambah']);
 
 
-Route::get('/siswa/{id}/edit', [SiswaController::class, 'edit']);
-Route::get('/siswa/{id}/hapus', [SiswaController::class, 'hapus']);
+Route::get('/siswa/edit/{id}', [SiswaController::class, 'edit']);
+Route::get('/siswa/hapus/{id}', [SiswaController::class, 'hapus']);

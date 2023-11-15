@@ -1,3 +1,5 @@
-@extends('list_siswa')
+@extends('siswa')
 
-
+@section('function-bjir')
+    <p>dfsfessfe </p>
+@endsection

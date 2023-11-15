@@ -32,12 +32,12 @@
                         <td>{{ $s->email }}</td>
                         <td class="w-25 p-0 m-0">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-                                <a name="edit" id="edit" class="btn btn-info" href="/siswa/{{ $s->id }}/edit"
+                                <a name="edit" id="edit" class="btn btn-info" href="/siswa/edit/{{ $s->id }}"
                                     role="button">Edit</a>
                                 <a name="edit" id="Show" class="btn btn-primary"
-                                    href="/siswa/{{ $s->id }}/show" role="button">Show</a>
+                                    href="/siswa/show/{{ $s->id }}" role="button">Show</a>
                                 <a name="hapus" id="hapus" class="btn btn-danger"
-                                     href="/siswa/{{ $s->id }}/hapus" role="button">Hapus</a>
+                                    href="/siswa/hapus/{{ $s->id }}" role="button">Hapus</a>
                             </div>
                         </td>
                     </tr>
@@ -45,5 +45,4 @@
             </tbody>
         </table>
     </div>
-
 @endsection
